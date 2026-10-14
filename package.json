@@ -1,0 +1,10 @@
+{
+  "name": "gibwork-extract",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "mammoth": "^1.8.0",
+    "pdfjs-dist": "^4.10.38"
+  }
+}
