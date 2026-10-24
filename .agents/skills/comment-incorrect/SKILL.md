@@ -1,5 +1,5 @@
 ---
-name: gibwork-comment
+name: comment-incorrect
 description: Comment on incorrect or incomplete Gibwork submissions, telling each contributor exactly what is missing or wrong (for example, the task asked for an X post link but they pasted the post text). Uses the JSON from the gibwork-review skill. Use when the user asks to reply to, comment on, or give feedback to bad, wrong or incomplete submissions.
 metadata:
   version: "0.1.0"

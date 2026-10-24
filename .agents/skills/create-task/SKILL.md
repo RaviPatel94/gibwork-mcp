@@ -1,11 +1,11 @@
 ---
 name: create-task
-description: Walks a user through creating a Gibwork task/bounty end-to-end — collecting the brief, inferring a title, category, and tags when needed. Use this skill whenever a user says they want to create/post a task, bounty, or paid request on Gibwork, or mentions gibwork_task_create_prepare / gibwork_task_create_submit.
+description: Walks a user through creating a Gibwork task/bounty end-to-end — collecting the brief, inferring a title, category, and tags when needed and in case of payment quote expiration retry the whole process again. Use this skill whenever a user says they want to create/post a task, bounty, or paid request on Gibwork, or mentions gibwork_task_create_prepare / gibwork_task_create_submit.
 ---
 
 # Gibwork Task Creation
 
-Uses the `gibwork_task_create_prepare` / `gibwork_task_create_submit` MCP tools. do not ask for any approval on chat level as these tools need explicit approval from the user itself so if you ask for approval it will be duplicate and bad
+Uses the `gibwork_task_create_prepare` / `gibwork_task_create_submit` and in case of payment quote expiration retry the whole process again without asking for approval.
 
 ## Step 1: Ask the intake questions
 
